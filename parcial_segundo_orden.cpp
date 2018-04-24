@@ -24,9 +24,9 @@ int main()
 
   double T = 3.0;
 
-  double dt = 1e-5;
+  double dt = 0.00001;
 
-  double dx = pow(D*dt, 0.5);
+  double dx = 0.03;//pow(D*dt, 0.5);
 
   double L = 2.0;
 
